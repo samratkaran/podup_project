@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>podup-project</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      rel="icon"
+      href="/Assets/logo-v2_1697606298394.svg"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="bg-danger">
+      <nav class="navbar navbar-expand-lg bg-light px-4">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img
+              src="/Assets/logo-v2_1697606298394.svg"
+              alt="Logo"
+              width="200"
+              height="50"
+            />
+          </a>
+
+          <!-- Toggle button for mobile view -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer-section">Contact Us</a>
+              </li>
+            </ul>
+
+            <!-- Buttons -->
+            <div class="d-flex custom-1">
+              <a href="#" class="btn btn-outline-secondary me-2 custom-btn"
+                >Sign in</a
+              >
+              <a href="#" class="btn btn-outline-secondary custom-btn"
+                >Register</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="head-text">Our AI Tools</h1>
+      <div class="carousel-container">
+        <div
+          id="carouselExample"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="carousel-images">
+                <img src="/Assets/image-one.jpg" class="d-block" alt="..." />
+                <img src="/Assets/slide-2.jpg" class="d-block" alt="..." />
+                <img src="/Assets/slide-3.jpg" class="d-block" alt="..." />
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <div class="carousel-images">
+                <img src="/Assets/slide-2.jpg" class="d-block" alt="..." />
+                <img src="/Assets/image-one.jpg" class="d-block" alt="..." />
+                <img src="/Assets/slide-3.jpg" class="d-block" alt="..." />
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+              <div class="carousel-images">
+                <img src="/Assets/slide-3.jpg" class="d-block" alt="..." />
+                <img src="/Assets/slide-2.jpg" class="d-block" alt="..." />
+                <img src="/Assets/image-one.jpg" class="d-block" alt="..." />
+              </div>
+            </div>
+          </div>
+
+          <!-- Previous Button -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <!-- Next Button -->
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <h1 class="head-text">Enquiry Now</h1>
+
+     
+        <div class=" row contact-section">
+          <div class="col-md-4 d-none d-md-block contact-image">
+            <img src="./Assets/beautiful-woman-showing-and-pointing-fingers-upper-left-and-right-corner-with-happy-expression-advices-use-this-copy-space-vector-removebg-preview.png" alt="Contact Image" class="img-fluid" />
+          </div>
+          <div class="col-md-5 contact-form">
+            <h2 class="text-center">Get in touch</h2>
+            <p class="text-center">We'd love to hear from you. Please fill out this form.</p>
+            <form style="padding-left: 2%; padding-right: 2%;">
+              <div class="form-row ">
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="firstName">First Name</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="firstName"
+                          placeholder="First Name"
+                        />
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="lastName">Last Name</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="lastName"
+                          placeholder="Last Name"
+                        />
+                      </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="mobileNumber">Mobile Number</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="mobileNumber"
+                  placeholder="Mobile Number"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">E-Mail</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="you@gmail.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="additionalDetails">Additional Details</label>
+                <textarea
+                  class="form-control"
+                  id="additionalDetails"
+                  rows="3"
+                  placeholder="Please Fill Additional Details"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+
+        
+           <!-- Footer Section -->
+  <footer class="footer bg-grey py-5" id="footer-section">
+    <div >
+      <div class="row align-items-center">
+       
+        <!-- Center Subscribe Section -->
+        <div class="col-md-12 text-center">
+          <h2 class="footer-heading">Subscribe to News Letter</h2>
+          <p class="footer-text">Lorem ipsum dolor sit amet consectetur. Venenatis pellentesque duis hendrerit proin et tristique tincidunt massa.</p>
+          <form class="d-flex justify-content-center">
+            <input type="email" class="form-control-new me-2" placeholder="Enter Your Mail Address" required>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+
+         <!-- Left Logo Section -->
+       <div class="row mt-5" style="padding: 2% 2%;">
+        <div class="col-md-5 text-center text-md-start mb-3 mb-md-0">
+          <img src="/Assets/logo-v2_1697606298394.svg" alt="Logo" class="footer-logo">
+        </div>
+        <!-- Right Social Media Icons -->
+        <div class="col-md-7 text-center text-md-end">
+          <div class="social-icons">
+            <a href="#"><img src="/Assets/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="/Assets/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="/Assets/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="/Assets/youtube.png" alt="YouTube"></a>
+            <a href="#"><img src="/Assets/linkedin.png" alt="LinkedIn"></a>
+          </div>
+        </div>
+       </div>
+      </div>
+    </div>
+  </footer>
+    
+      
+    </main>
+  </body>
+  <script src="./main.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"
+  ></script>
+</html>
